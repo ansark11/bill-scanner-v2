@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+
+# backend (Python)
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.env
+backend/*.pyc
+backend/.pytest_cache/
+
+# frontend env (belt-and-suspenders; frontend/.gitignore already covers this)
+frontend/.env*
